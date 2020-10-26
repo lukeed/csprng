@@ -14,6 +14,22 @@
     "email": "luke.edwards05@gmail.com",
     "url": "https://lukeed.com"
   },
+  "exports": {
+    ".": {
+      "import": "./node/index.mjs",
+      "browser": "./browser/index.mjs",
+      "require": "./node/index.js"
+    },
+    "./node": {
+      "import": "./node/index.mjs",
+      "require": "./node/index.js"
+    },
+    "./browser": {
+      "import": "./browser/index.mjs",
+      "require": "./browser/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "engines": {
     "node": ">=8"
   },
