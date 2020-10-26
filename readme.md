@@ -6,9 +6,9 @@
 
 This package allows you/dependents to import a cryptographically secure generator (CSPRNG) _without_ worrying about (aka, checking the runtime environment for) the different `crypto` implementations. Instead, by extracting a `random` function into a third-party/external package, one can rely on bundlers and/or module resolution to load the correct implementation for the desired environment.
 
-In other words, one can include the browser-specific implementation when bundling for the browser, completely ignoring the Node.js code – or viceversa.
+In other words, one can include the browser-specific implementation when bundling for the browser, completely ignoring the Node.js code – or vice versa.
 
-By default, this module is setup to work with Rollup, webpack, CommonJS, and Node's native ESM path resolutions.
+By default, this module is set up to work with Rollup, webpack, and Node's native ESM _and_ CommonJS path resolutions.
 
 ## Install
 
