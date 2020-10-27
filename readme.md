@@ -1,4 +1,4 @@
-# crypto.random ![CI](https://github.com/lukeed/crypto.random/workflows/CI/badge.svg) [![codecov](https://badgen.now.sh/codecov/c/github/lukeed/crypto.random)](https://codecov.io/gh/lukeed/crypto.random)
+# @lukeed/csprng ![CI](https://github.com/lukeed/csprng/workflows/CI/badge.svg) [![codecov](https://badgen.now.sh/codecov/c/github/lukeed/csprng)](https://codecov.io/gh/lukeed/@lukeed/csprng)
 
 > A tiny (~90B) isomorphic wrapper for `crypto.randomBytes` in Node.js and browsers.
 
@@ -13,7 +13,7 @@ By default, this module is set up to work with Rollup, webpack, and Node's nativ
 ## Install
 
 ```
-$ npm install --save crypto.random
+$ npm install --save @lukeed/csprng
 ```
 
 
@@ -23,7 +23,7 @@ $ npm install --save crypto.random
 
 ```js
 // Rely on bundlers/environment detection
-import { random } from 'crypto.random';
+import { random } from '@lukeed/csprng';
 
 const array = random(12);
 // browser => Uint8Array(12) [...]
@@ -35,7 +35,7 @@ const array = random(12);
 ```js
 // Choose the "browser" implementation explicitly.
 //=> ! NOTE ! Will break in Node.js environments!
-import { random } from 'crypto.random/browser';
+import { random } from '@lukeed/csprng/browser';
 
 const array = random(1024);
 //=> Uint8Array(1024) [...]
@@ -44,7 +44,7 @@ const array = random(1024);
 
 // Choose the "node" implementation explicitly.
 //=> ! NOTE ! Will break in browser environments!
-import { random } from 'crypto.random/node';
+import { random } from '@lukeed/csprng/node';
 
 const array = random(1024);
 //=> <Buffer ...>

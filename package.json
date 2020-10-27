@@ -1,6 +1,6 @@
 {
   "version": "0.0.0",
-  "name": "crpyto.random",
+  "name": "@lukeed/csprng",
   "repository": "lukeed/crypto.random",
   "description": "An alias package for `crypto.randomBytes` in Node.js and/or browsers",
   "unpkg": "browser/index.min.js",
@@ -52,11 +52,15 @@
     "isomorphic",
     "getRandomValues",
     "randomFill",
-    "random"
+    "random",
+    "csprng"
   ],
   "devDependencies": {
     "bundt": "1.1.1",
     "esm": "3.2.25",
     "uvu": "0.3.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
