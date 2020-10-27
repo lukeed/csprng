@@ -1,7 +1,7 @@
 {
   "version": "0.0.0",
   "name": "@lukeed/csprng",
-  "repository": "lukeed/crypto.random",
+  "repository": "lukeed/csprng",
   "description": "An alias package for `crypto.randomBytes` in Node.js and/or browsers",
   "unpkg": "browser/index.min.js",
   "browser": "browser/index.mjs",
