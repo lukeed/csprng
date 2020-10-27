@@ -1,4 +1,4 @@
-# @lukeed/csprng ![CI](https://github.com/lukeed/csprng/workflows/CI/badge.svg) [![codecov](https://badgen.now.sh/codecov/c/github/lukeed/csprng)](https://codecov.io/gh/lukeed/@lukeed/csprng)
+# @lukeed/csprng ![CI](https://github.com/lukeed/csprng/workflows/CI/badge.svg) [![codecov](https://badgen.now.sh/codecov/c/github/lukeed/csprng)](https://codecov.io/gh/lukeed/csprng)
 
 > A tiny (~90B) isomorphic wrapper for `crypto.randomBytes` in Node.js and browsers.
 
