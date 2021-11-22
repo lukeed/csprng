@@ -61,7 +61,7 @@
   "devDependencies": {
     "bundt": "1.1.1",
     "esm": "3.2.25",
-    "uvu": "0.3.4"
+    "uvu": "0.5.2"
   },
   "publishConfig": {
     "access": "public"
