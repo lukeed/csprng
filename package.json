@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "name": "@lukeed/csprng",
   "repository": "lukeed/csprng",
   "description": "An alias package for `crypto.randomBytes` in Node.js and/or browsers",
