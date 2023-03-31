@@ -17,17 +17,21 @@
   "exports": {
     ".": {
       "browser": {
+        "types": "./browser/index.d.ts",
         "import": "./browser/index.mjs",
         "require": "./browser/index.js"
       },
+      "types": "./node/index.d.ts",
       "import": "./node/index.mjs",
       "require": "./node/index.js"
     },
     "./node": {
+      "types": "./node/index.d.ts",
       "import": "./node/index.mjs",
       "require": "./node/index.js"
     },
     "./browser": {
+      "types": "./browser/index.d.ts",
       "import": "./browser/index.mjs",
       "require": "./browser/index.js"
     },
